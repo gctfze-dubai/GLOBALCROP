@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - GLOBALCROP TRADING FZE</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            green: '#2E7D32',
+                            dark: '#1B5E20',
+                            gold: '#FFD700',
+                            sand: '#F4E7D3',
+                            blue: '#1565C0'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="index.html" class="text-2xl font-bold text-brand-green tracking-tighter">GLOBALCROP <span
+                            class="text-brand-gold">TRADING FZE</span></a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-600 hover:text-brand-green font-medium transition">Home</a>
+                    <a href="products.html"
+                        class="text-gray-600 hover:text-brand-green font-medium transition">Products</a>
+                    <a href="about.html" class="text-brand-dark hover:text-brand-green font-medium transition">About
+                        Us</a>
+                    <a href="contact.html"
+                        class="bg-brand-green text-white px-5 py-2 rounded-full hover:bg-brand-dark transition transform hover:scale-105">Get
+                        Quote</a>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button class="mobile-menu-button outline-none">
+                        <svg class="w-6 h-6 text-gray-500 hover:text-brand-green" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                            <path d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="md:hidden hidden mobile-menu bg-white border-t">
+            <a href="index.html" class="block py-3 px-4 text-sm hover:bg-gray-100">Home</a>
+            <a href="products.html" class="block py-3 px-4 text-sm hover:bg-gray-100">Products</a>
+            <a href="about.html" class="block py-3 px-4 text-sm hover:bg-gray-100 font-bold text-brand-green">About
+                Us</a>
+            <a href="contact.html"
+                class="block py-3 px-4 text-sm hover:bg-gray-100 font-bold text-brand-green">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="bg-gray-900 pt-32 pb-16 text-white text-center relative overflow-hidden">
+        <div
+            class="absolute inset-0 opacity-20 bg-[url('Amazing%20Picture%20of%20Container%20Ship%201.jpg')] bg-cover bg-center">
+        </div>
+        <div class="relative z-10">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Empowering Agriculture Globally</h1>
+            <p class="text-xl max-w-2xl mx-auto text-gray-300">Rooted in Dubai, Connecting to the World.</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+
+        <div class="grid md:grid-cols-2 gap-16 items-center mb-24">
+            <div>
+                <h2 class="text-3xl font-bold text-brand-dark mb-6">Our Mission</h2>
+                <p class="text-gray-600 mb-6 leading-relaxed">
+                    GlobalCrop Trading FZE is a Dubai-based international commodity trading firm specializing in
+                    Fertilizers and Basic Industrial Chemicals. With long-standing partnerships with producers
+                    worldwide, we provide cost-effective, high-quality products and efficient logistical solutions to
+                    support our global clients.
+                </p>
+                <p class="text-gray-600 mb-6 leading-relaxed">
+                    Leveraging our strategic Dubai hub, we bridge the gap between manufacturers and markets in Africa,
+                    Asia, and beyond, ensuring reliable supply and expert market representation.
+                </p>
+                <div class="flex space-x-4">
+                    <div class="text-center p-4 bg-gray-100 rounded-lg">
+                        <span class="block text-3xl font-bold text-brand-green">15+</span>
+                        <span class="text-xs text-gray-500 uppercase">Countries Served</span>
+                    </div>
+                    <div class="text-center p-4 bg-gray-100 rounded-lg">
+                        <span class="block text-3xl font-bold text-brand-green">50k+</span>
+                        <span class="text-xs text-gray-500 uppercase">Tons Shipped</span>
+                    </div>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="absolute -top-4 -left-4 w-full h-full bg-brand-gold/20 rounded-2xl"></div>
+                <!-- Placeholder, will replace with business image -->
+                <div
+                    class="relative bg-gray-200 h-96 rounded-2xl flex items-center justify-center text-gray-500 overflow-hidden">
+                    <img src="Amazing%20Picture%20of%20Container%20Ship%201.jpg" alt="International Container Ship"
+                        class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+
+        <!-- What We Do -->
+        <div class="mb-24">
+            <div class="text-center mb-10">
+                <h2 class="text-3xl font-bold text-gray-900">What We Do</h2>
+                <div class="w-24 h-1 bg-brand-green mx-auto rounded-full mt-4"></div>
+            </div>
+            <div class="bg-white p-8 md:p-10 rounded-3xl shadow-lg border border-gray-100 max-w-4xl mx-auto">
+                <ul class="list-none space-y-4 text-gray-600 text-lg">
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-brand-green mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                            </path>
+                        </svg>
+                        <span><strong>Global Representation:</strong> Partnering with a vast network of producers across
+                            the Middle East, EU, Asia, and Africa.</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-brand-green mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                            </path>
+                        </svg>
+                        <span><strong>Market Intelligence:</strong> Providing real-time insights to assist suppliers and
+                            customers in timely trading decisions.</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-brand-green mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                            </path>
+                        </svg>
+                        <span><strong>Strategic Supply:</strong> Sourcing reliable products and supplying to key Asian
+                            and African markets on CFR & CIF terms.</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Values -->
+        <div class="bg-brand-green rounded-3xl p-12 text-white">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">Core Values</h2>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <div class="bg-white/10 p-6 rounded-xl backdrop-blur-sm">
+                    <h3 class="text-xl font-bold mb-2">Integrity</h3>
+                    <p class="text-sm opacity-80">Honest, transparent dealings are the foundation of our long-term
+                        partnerships.</p>
+                </div>
+                <div class="bg-white/10 p-6 rounded-xl backdrop-blur-sm">
+                    <h3 class="text-xl font-bold mb-2">Quality</h3>
+                    <p class="text-sm opacity-80">We never compromise on specifications. What you order is exactly what
+                        you get.</p>
+                </div>
+                <div class="bg-white/10 p-6 rounded-xl backdrop-blur-sm">
+                    <h3 class="text-xl font-bold mb-2">Efficiency</h3>
+                    <p class="text-sm opacity-80">Our logistics team ensures timely delivery, minimizing downtime for
+                        your operations.</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center text-gray-500 text-sm">
+                &copy; 2026 GlobalCrop Trading FZE. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

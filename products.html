@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - GLOBALCROP TRADING FZE</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            green: '#2E7D32',
+                            dark: '#1B5E20',
+                            gold: '#FFD700',
+                            sand: '#F4E7D3',
+                            blue: '#1565C0'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="index.html" class="text-2xl font-bold text-brand-green tracking-tighter">GLOBALCROP <span
+                            class="text-brand-gold">TRADING FZE</span></a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-600 hover:text-brand-green font-medium transition">Home</a>
+                    <a href="products.html"
+                        class="text-brand-dark hover:text-brand-green font-medium transition">Products</a>
+                    <a href="about.html" class="text-gray-600 hover:text-brand-green font-medium transition">About
+                        Us</a>
+                    <a href="contact.html"
+                        class="bg-brand-green text-white px-5 py-2 rounded-full hover:bg-brand-dark transition transform hover:scale-105">Get
+                        Quote</a>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button class="mobile-menu-button outline-none">
+                        <svg class="w-6 h-6 text-gray-500 hover:text-brand-green" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                            <path d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="md:hidden hidden mobile-menu bg-white border-t">
+            <a href="index.html" class="block py-3 px-4 text-sm hover:bg-gray-100">Home</a>
+            <a href="products.html"
+                class="block py-3 px-4 text-sm hover:bg-gray-100 font-bold text-brand-green">Products</a>
+            <a href="about.html" class="block py-3 px-4 text-sm hover:bg-gray-100">About Us</a>
+            <a href="contact.html"
+                class="block py-3 px-4 text-sm hover:bg-gray-100 font-bold text-brand-green">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="bg-brand-dark pt-32 pb-16 text-white text-center">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">Premium Fertilizer Catalog</h1>
+        <p class="text-xl max-w-2xl mx-auto text-brand-sand">Explore our comprehensive range of high-quality
+            agricultural inputs designed for maximum yield.</p>
+    </header>
+
+    <!-- Products Grid -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-24">
+
+        <!-- Granular Urea Section -->
+        <article id="urea"
+            class="grid md:grid-cols-2 gap-12 items-center bg-white p-8 rounded-3xl shadow-lg border border-gray-100 hover:shadow-2xl transition duration-500">
+            <div class="relative h-96 rounded-2xl overflow-hidden group">
+                <img src="assets/images/Urea%20Granular.jpg" alt="Granular Urea Fertilizer"
+                    class="w-full h-full object-cover transform group-hover:scale-105 transition duration-700">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
+                    <span class="text-white font-bold text-lg bg-brand-green px-3 py-1 rounded-lg">High Nitrogen</span>
+                </div>
+            </div>
+            <div>
+                <h2 class="text-3xl font-bold text-gray-900 mb-4 flex items-center">
+                    <span class="w-3 h-8 bg-brand-green mr-3 rounded-full"></span> Granular Urea
+                </h2>
+                <p class="text-gray-600 mb-6 leading-relaxed">
+                    Our premium Granular Urea is a white, free-flowing solid fertilizer containing 46% nitrogen. It is
+                    the most concentrated solid nitrogen fertilizer available and is suitable for all crops and soil
+                    types.
+                </p>
+                <h3 class="text-lg font-bold text-gray-800 mb-3 border-b pb-2">Technical Specifications</h3>
+                <ul class="space-y-2 text-sm text-gray-600 mb-8 font-mono bg-gray-50 p-4 rounded-xl">
+                    <li class="flex justify-between"><span>Nitrogen Content:</span> <span
+                            class="font-bold text-gray-900">46.0% Min</span></li>
+                    <li class="flex justify-between"><span>Moisture:</span> <span class="font-bold text-gray-900">0.5%
+                            Max</span></li>
+                    <li class="flex justify-between"><span>Biuret:</span> <span class="font-bold text-gray-900">1.0%
+                            Max</span></li>
+                    <li class="flex justify-between"><span>Granulometry (2-4mm):</span> <span
+                            class="font-bold text-gray-900">90% Min</span></li>
+                    <li class="flex justify-between"><span>Color:</span> <span class="font-bold text-gray-900">Pure
+                            White</span></li>
+                </ul>
+                <a href="contact.html?product=Urea"
+                    class="inline-block bg-brand-green text-white font-bold py-3 px-8 rounded-full hover:bg-brand-dark transition shadow-lg hover:shadow-brand-green/30">Inquire
+                    Now</a>
+            </div>
+        </article>
+
+        <!-- Prilled Urea Section -->
+        <article id="prilled-urea"
+            class="grid md:grid-cols-2 gap-12 items-center bg-white p-8 rounded-3xl shadow-lg border border-gray-100 hover:shadow-2xl transition duration-500">
+            <div class="md:order-2 relative h-96 rounded-2xl overflow-hidden group">
+                <img src="assets/images/Urea%20prilled.jpg" alt="Prilled Urea Fertilizer"
+                    class="w-full h-full object-cover transform group-hover:scale-105 transition duration-700">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
+                    <span class="text-white font-bold text-lg bg-brand-green px-3 py-1 rounded-lg">Fast Acting</span>
+                </div>
+            </div>
+            <div class="md:order-1">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4 flex items-center">
+                    <span class="w-3 h-8 bg-brand-green mr-3 rounded-full"></span> Prilled Urea
+                </h2>
+                <p class="text-gray-600 mb-6 leading-relaxed">
+                    Prilled Urea consists of smaller, smoother beads compared to granular urea. It dissolves rapidly in
+                    water, making it ideal for irrigation systems and foliar application.
+                </p>
+                <h3 class="text-lg font-bold text-gray-800 mb-3 border-b pb-2">Technical Specifications</h3>
+                <ul class="space-y-2 text-sm text-gray-600 mb-8 font-mono bg-gray-50 p-4 rounded-xl">
+                    <li class="flex justify-between"><span>Nitrogen Content:</span> <span
+                            class="font-bold text-gray-900">46.0% Min</span></li>
+                    <li class="flex justify-between"><span>Moisture:</span> <span class="font-bold text-gray-900">0.5%
+                            Max</span></li>
+                    <li class="flex justify-between"><span>Biuret:</span> <span class="font-bold text-gray-900">1.0%
+                            Max</span></li>
+                    <li class="flex justify-between"><span>Granulometry (1-2.4mm):</span> <span
+                            class="font-bold text-gray-900">90% Min</span></li>
+                    <li class="flex justify-between"><span>Color:</span> <span class="font-bold text-gray-900">Pure
+                            White</span></li>
+                </ul>
+                <a href="contact.html?product=PrilledUrea"
+                    class="inline-block bg-brand-green text-white font-bold py-3 px-8 rounded-full hover:bg-brand-dark transition shadow-lg hover:shadow-brand-green/30">Inquire
+                    Now</a>
+            </div>
+        </article>
+
+        <!-- DAP Section (Updated Image) -->
+        <article id="dap"
+            class="grid md:grid-cols-2 gap-12 items-center bg-white p-8 rounded-3xl shadow-lg border border-gray-100 hover:shadow-2xl transition duration-500">
+            <div class="relative h-96 rounded-2xl overflow-hidden group">
+                <img src="assets/images/DAP.jpg" alt="Yellow DAP Fertilizer"
+                    class="w-full h-full object-cover transform group-hover:scale-105 transition duration-700">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
+                    <span class="text-white font-bold text-lg bg-yellow-600 px-3 py-1 rounded-lg">Phosphate Rich</span>
+                </div>
+            </div>
+            <div>
+                <h2 class="text-3xl font-bold text-gray-900 mb-4 flex items-center">
+                    <span class="w-3 h-8 bg-yellow-600 mr-3 rounded-full"></span> Diammonium Phosphate (DAP)
+                </h2>
+                <p class="text-gray-600 mb-6 leading-relaxed">
+                    Our Yellow DAP 18-46-0 is a highly effective source of phosphorus and nitrogen. Its yellowish
+                    granular form indicates a robust nutrient profile suitable for strengthening root development.
+                </p>
+                <h3 class="text-lg font-bold text-gray-800 mb-3 border-b pb-2">Technical Specifications</h3>
+                <ul class="space-y-2 text-sm text-gray-600 mb-8 font-mono bg-gray-50 p-4 rounded-xl">
+                    <li class="flex justify-between"><span>Total Nitrogen:</span> <span
+                            class="font-bold text-gray-900">18.0% Min</span></li>
+                    <li class="flex justify-between"><span>P2O5 (Total):</span> <span
+                            class="font-bold text-gray-900">46.0% Min</span></li>
+                    <li class="flex justify-between"><span>Moisture:</span> <span class="font-bold text-gray-900">1.5%
+                            Max</span></li>
+                    <li class="flex justify-between"><span>Granule Size (2-4mm):</span> <span
+                            class="font-bold text-gray-900">90% Min</span></li>
+                    <li class="flex justify-between"><span>Color:</span> <span
+                            class="font-bold text-gray-900">Yellow/Brown</span></li>
+                </ul>
+                <a href="contact.html?product=DAP"
+                    class="inline-block bg-brand-green text-white font-bold py-3 px-8 rounded-full hover:bg-brand-dark transition shadow-lg hover:shadow-brand-green/30">Inquire
+                    Now</a>
+            </div>
+        </article>
+
+        <!-- MOP Standard Section -->
+        <article id="mop-standard"
+            class="grid md:grid-cols-2 gap-12 items-center bg-white p-8 rounded-3xl shadow-lg border border-gray-100 hover:shadow-2xl transition duration-500">
+            <div class="md:order-2 relative h-96 rounded-2xl overflow-hidden group">
+                <img src="assets/images/MOP%20std.jpg" alt="MOP Standard Fertilizer"
+                    class="w-full h-full object-cover transform group-hover:scale-105 transition duration-700">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
+                    <span class="text-white font-bold text-lg bg-red-600 px-3 py-1 rounded-lg">Standard Grade</span>
+                </div>
+            </div>
+            <div class="md:order-1">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4 flex items-center">
+                    <span class="w-3 h-8 bg-red-600 mr-3 rounded-full"></span> MOP Standard
+                </h2>
+                <p class="text-gray-600 mb-6 leading-relaxed">
+                    Standard Muriate of Potash provides a high concentration of potassium in a finer crystalline form.
+                    Ideal for direct application or for use in manufacturing compound NPK fertilizers.
+                </p>
+                <h3 class="text-lg font-bold text-gray-800 mb-3 border-b pb-2">Technical Specifications</h3>
+                <ul class="space-y-2 text-sm text-gray-600 mb-8 font-mono bg-gray-50 p-4 rounded-xl">
+                    <li class="flex justify-between"><span>K2O Content:</span> <span
+                            class="font-bold text-gray-900">60.0% Min</span></li>
+                    <li class="flex justify-between"><span>Moisture:</span> <span class="font-bold text-gray-900">0.5%
+                            Max</span></li>
+                    <li class="flex justify-between"><span>Chlorides (NaCl):</span> <span
+                            class="font-bold text-gray-900">3.5% Max</span></li>
+                    <li class="flex justify-between"><span>Appearance:</span> <span
+                            class="font-bold text-gray-900">Reddish/Pink Crystals</span></li>
+                </ul>
+                <a href="contact.html?product=MOPStandard"
+                    class="inline-block bg-brand-green text-white font-bold py-3 px-8 rounded-full hover:bg-brand-dark transition shadow-lg hover:shadow-brand-green/30">Inquire
+                    Now</a>
+            </div>
+        </article>
+
+        <!-- TSP Section -->
+        <article id="tsp"
+            class="grid md:grid-cols-2 gap-12 items-center bg-white p-8 rounded-3xl shadow-lg border border-gray-100 hover:shadow-2xl transition duration-500">
+            <div class="relative h-96 rounded-2xl overflow-hidden group">
+                <img src="assets/images/TSP.jpg" alt="TSP Fertilizer"
+                    class="w-full h-full object-cover transform group-hover:scale-105 transition duration-700">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
+                    <span class="text-white font-bold text-lg bg-gray-600 px-3 py-1 rounded-lg">High Phosphorus</span>
+                </div>
+            </div>
+            <div>
+                <h2 class="text-3xl font-bold text-gray-900 mb-4 flex items-center">
+                    <span class="w-3 h-8 bg-gray-600 mr-3 rounded-full"></span> Triple Super Phosphate (TSP)
+                </h2>
+                <p class="text-gray-600 mb-6 leading-relaxed">
+                    TSP is a highly concentrated phosphorus fertilizer (46% P2O5). We supply high-quality granules that
+                    are suitable for all crops needing strong root establishment.
+                </p>
+                <h3 class="text-lg font-bold text-gray-800 mb-3 border-b pb-2">Technical Specifications</h3>
+                <ul class="space-y-2 text-sm text-gray-600 mb-8 font-mono bg-gray-50 p-4 rounded-xl">
+                    <li class="flex justify-between"><span>P2O5 (Total):</span> <span
+                            class="font-bold text-gray-900">46.0% Min</span></li>
+                    <li class="flex justify-between"><span>P2O5 (Water Soluble):</span> <span
+                            class="font-bold text-gray-900">37-40% Min</span></li>
+                    <li class="flex justify-between"><span>Moisture:</span> <span class="font-bold text-gray-900">4.0%
+                            Max</span></li>
+                    <li class="flex justify-between"><span>Free Acid:</span> <span class="font-bold text-gray-900">5.0%
+                            Max</span></li>
+                    <li class="flex justify-between"><span>Color:</span> <span class="font-bold text-gray-900">Grey
+                            Granules</span></li>
+                </ul>
+                <a href="contact.html?product=TSP"
+                    class="inline-block bg-brand-green text-white font-bold py-3 px-8 rounded-full hover:bg-brand-dark transition shadow-lg hover:shadow-brand-green/30">Inquire
+                    Now</a>
+            </div>
+        </article>
+
+        <!-- Ammonium Sulphate Section -->
+        <article id="ammonium-sulphate"
+            class="grid md:grid-cols-2 gap-12 items-center bg-white p-8 rounded-3xl shadow-lg border border-gray-100 hover:shadow-2xl transition duration-500">
+            <div class="md:order-2 relative h-96 rounded-2xl overflow-hidden group">
+                <img src="assets/images/SOA%20Crystals.jpg" alt="Ammonium Sulphate"
+                    class="w-full h-full object-cover transform group-hover:scale-105 transition duration-700">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
+                    <span class="text-white font-bold text-lg bg-blue-500 px-3 py-1 rounded-lg">Crystals &
+                        Granular</span>
+                </div>
+            </div>
+            <div class="md:order-1">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4 flex items-center">
+                    <span class="w-3 h-8 bg-blue-500 mr-3 rounded-full"></span> Ammonium Sulphate
+                </h2>
+                <p class="text-gray-600 mb-6 leading-relaxed">
+                    Available in both Crystalline and Granular forms. This fertilizer provides Nitrogen and Sulphur in
+                    equal measure, essential for protein synthesis in plants.
+                </p>
+                <h3 class="text-lg font-bold text-gray-800 mb-3 border-b pb-2">Technical Specifications</h3>
+                <ul class="space-y-2 text-sm text-gray-600 mb-8 font-mono bg-gray-50 p-4 rounded-xl">
+                    <li class="flex justify-between"><span>Nitrogen Content:</span> <span
+                            class="font-bold text-gray-900">21.0% Min</span></li>
+                    <li class="flex justify-between"><span>Sulphur Content:</span> <span
+                            class="font-bold text-gray-900">24.0% Min</span></li>
+                    <li class="flex justify-between"><span>Moisture:</span> <span class="font-bold text-gray-900">0.5%
+                            Max</span></li>
+                    <li class="flex justify-between"><span>Acidity (H2SO4):</span> <span
+                            class="font-bold text-gray-900">0.05% Max</span></li>
+                    <li class="flex justify-between"><span>Forms:</span> <span class="font-bold text-gray-900">White
+                            Crystals / Granules</span></li>
+                </ul>
+                <a href="contact.html?product=AmmoniumSulphate"
+                    class="inline-block bg-brand-green text-white font-bold py-3 px-8 rounded-full hover:bg-brand-dark transition shadow-lg hover:shadow-brand-green/30">Inquire
+                    Now</a>
+            </div>
+        </article>
+
+        <!-- Nitrogen Phosphate & Calcium Nitrate -->
+        <div class="grid md:grid-cols-2 gap-8">
+            <!-- Nitrogen Phosphate -->
+            <article id="np" class="bg-white p-8 rounded-3xl shadow-lg border border-gray-100">
+                <img src="assets/images/NP.jpg" alt="Nitrogen Phosphate"
+                    class="w-full h-48 object-cover rounded-xl mb-6">
+                <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">Nitrogen Phosphate</h2>
+                <p class="text-gray-600 mb-6 text-sm">Balanced NP fertilizers (e.g., 20-20-0) containing ammoniacal
+                    nitrogen and phosphate for rapid growth.</p>
+                <ul class="space-y-1 text-xs text-gray-600 mb-6 font-mono bg-gray-50 p-4 rounded-xl">
+                    <li class="flex justify-between"><span>Nitrogen:</span> <span>20% Min</span></li>
+                    <li class="flex justify-between"><span>P2O5:</span> <span>20% Min</span></li>
+                    <li class="flex justify-between"><span>Color:</span> <span>Grey/White</span></li>
+                </ul>
+                <a href="contact.html?product=NP" class="text-brand-green font-bold hover:underline">Request Price
+                    &rarr;</a>
+            </article>
+
+            <!-- Calcium Nitrate -->
+            <article id="calcium-nitrate" class="bg-white p-8 rounded-3xl shadow-lg border border-gray-100">
+                <img src="assets/images/CAN.jpg" alt="Calcium Nitrate" class="w-full h-48 object-cover rounded-xl mb-6">
+                <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">Calcium Nitrate</h2>
+                <p class="text-gray-600 mb-6 text-sm">Fully water-soluble Calcium Nitrate, supplying fast-acting
+                    nitrogen and calcium for fruit quality.</p>
+                <ul class="space-y-1 text-xs text-gray-600 mb-6 font-mono bg-gray-50 p-4 rounded-xl">
+                    <li class="flex justify-between"><span>Nitrogen:</span> <span>15.5% Min</span></li>
+                    <li class="flex justify-between"><span>Calcium (CaO):</span> <span>26% Min</span></li>
+                    <li class="flex justify-between"><span>Form:</span> <span>White Prills/Crystals</span></li>
+                </ul>
+                <a href="contact.html?product=CalciumNitrate" class="text-brand-green font-bold hover:underline">Request
+                    Price &rarr;</a>
+            </article>
+        </div>
+
+        <!-- Water Solubles Section -->
+        <article id="water-solubles"
+            class="grid md:grid-cols-2 gap-12 items-center bg-white p-8 rounded-3xl shadow-lg border border-gray-100 hover:shadow-2xl transition duration-500">
+            <div class="md:order-2 relative h-96 rounded-2xl overflow-hidden group">
+                <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                    alt="Water Soluble Fertilizers"
+                    class="w-full h-full object-cover transform group-hover:scale-105 transition duration-700">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
+                    <span class="text-white font-bold text-lg bg-blue-600 px-3 py-1 rounded-lg">100% Water
+                        Soluble</span>
+                </div>
+            </div>
+            <div class="md:order-1">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4 flex items-center">
+                    <span class="w-3 h-8 bg-blue-600 mr-3 rounded-full"></span> Water Soluble Specailities
+                </h2>
+                <p class="text-gray-600 mb-6 leading-relaxed">
+                    A premium range of 100% water-soluble fertilizers suitable for fertigation and hydroponics. We offer
+                    high purity MKP, MAP, SOP, and Chelated Micronutrients.
+                </p>
+                <h3 class="text-lg font-bold text-gray-800 mb-3 border-b pb-2">Available Products</h3>
+                <div class="grid grid-cols-2 gap-4 mb-8">
+                    <div class="bg-gray-50 p-4 rounded-xl text-center">
+                        <h4 class="font-bold text-brand-dark">MKP 0-52-34</h4>
+                        <p class="text-xs text-gray-500">Mono Potassium Phosphate</p>
+                    </div>
+                    <div class="bg-gray-50 p-4 rounded-xl text-center">
+                        <h4 class="font-bold text-brand-dark">MAP 12-61-0</h4>
+                        <p class="text-xs text-gray-500">Mono Ammonium Phosphate</p>
+                    </div>
+                    <div class="bg-gray-50 p-4 rounded-xl text-center">
+                        <h4 class="font-bold text-brand-dark">SOP 50% K2O</h4>
+                        <p class="text-xs text-gray-500">Sulphate of Potash Soluble</p>
+                    </div>
+                    <div class="bg-gray-50 p-4 rounded-xl text-center">
+                        <h4 class="font-bold text-brand-dark">WS NPK</h4>
+                        <p class="text-xs text-gray-500">Custom Formulas</p>
+                    </div>
+                </div>
+                <a href="contact.html?product=WaterSolubles"
+                    class="inline-block bg-brand-green text-white font-bold py-3 px-8 rounded-full hover:bg-brand-dark transition shadow-lg hover:shadow-brand-green/30">Inquire
+                    Now</a>
+            </div>
+        </article>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center text-gray-500 text-sm">
+                &copy; 2026 GlobalCrop Trading FZE. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
